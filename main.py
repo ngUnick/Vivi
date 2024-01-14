@@ -26,26 +26,6 @@ def handle_response(message) -> str:
 
     result = sentiment.perform_sentiment_analysis(new_message).lower()
 
-    # if result == 'joy':
-    #     return 'meow :heart_eyes_cat:'
-
-    # elif result == 'neutral':
-    #     return 'meow :smiley_cat:'
-    
-    # elif result == 'surprise':
-    #     return 'meow :scream_cat:'
-
-    # elif result == 'fear':
-    #     return 'meow :scream_cat:'
-
-    # elif result == 'disgust':
-    #     return 'meow :pouting_cat:'
-
-    # elif result == 'anger':
-    #     return 'meow :pouting_cat:'
-    
-    # elif result == 'sadness':
-    #     return 'meow :crying_cat_face:'
 
     if result == 'joy':
         return 'meow :heart_eyes_cat:'
